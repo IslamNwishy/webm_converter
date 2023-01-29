@@ -13,7 +13,7 @@ usage: python webm_convert.py [-h] [--input INPUT] [--output OUTPUT] [--rem]
 
 options:
   -h, --help       show this help message and exit
-  --input INPUT    The root input directory for gifs to be converted
-  --output OUTPUT  The root output directory for webm videos to be saved
-  --rem            delete converted gifs
+  --input INPUT    The root input directory for gifs to be converted (defaults to 'skins')
+  --output OUTPUT  The root output directory for webm videos to be saved (defaults to 'webm')
+  --rem            delete converted gifs (considered False if not given)
 ```

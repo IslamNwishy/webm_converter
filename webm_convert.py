@@ -7,20 +7,20 @@ parser = argparse.ArgumentParser("python webm_convert.py")
 parser.add_argument(
     "--input",
     default="skins",
-    help="The root input directory for gifs to be converted",
+    help="The root input directory for gifs to be converted (defaults to 'skins')",
     type=str,
 )
 parser.add_argument(
     "--output",
     default="webm",
-    help="The root output directory for webm videos to be saved",
+    help="The root output directory for webm videos to be saved (defaults to 'webm')",
     type=str,
 )
 parser.add_argument(
     "--rem",
     default=False,
     action="store_true",
-    help="delete converted gifs",
+    help="delete converted gifs (considered False if not given)",
 )
 args = parser.parse_args()
 
